@@ -33,7 +33,7 @@ Once configured, then we can collect data to process later.
 
 This information was taken from these articles:
 
-- [How to connect your SimpleRTK2B to your Raspberry Pi](www.ardusimple.com/connect-your-simplertk2b-to-a-raspberry-pi/)
+- [How to connect your SimpleRTK2B to your Raspberry Pi](https://www.ardusimple.com/connect-your-simplertk2b-to-a-raspberry-pi/)
 
 - [User Guide: simpleRTK2B Budget](https://www.ardusimple.com/user-guide-simplertk2b-budget/)
 
