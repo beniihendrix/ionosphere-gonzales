@@ -15,6 +15,18 @@ We've decided on recording to record to files in 1.5 hour intervals.
 This is just a start, and we'll find a realistic number once we record
 data.
 
+### Data cap updates
+
+Knowing that we will be recording using ubx binary data,
+we can do the math for how much data is being stored over time.
+
+The messages we'll need for our data collection are `UBX-RXM-RAWX` and
+`UBX-RXM-SFRBX`. These messages each take up $2,064$ and $~22$ bytes 
+respectively. Both combined generate about $7.4$ MB an hour, or $1$ GB
+a week. This gives a lot of room for storing files, but we should
+still be conscious about how often we save in the case of an
+unexpected reboot.
+
 ## Power
 
 Because we're creating a transportable gnss receiver, it would
