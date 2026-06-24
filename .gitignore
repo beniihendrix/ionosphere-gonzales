@@ -1,0 +1,9 @@
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+
+# Pythong virtual environments
+.venv/
+venv/
+ENV/
