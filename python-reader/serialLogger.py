@@ -7,7 +7,7 @@ This is just a rudementary serial data logger using the pyubx2 library
 from serial import Serial
 from pyubx2 import UBXReader
 from pathlib import Path
-import datetime
+from datetime import datetime
 
 # initalize the folder for data according to the time and day
 
